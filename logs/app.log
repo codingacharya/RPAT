@@ -1,0 +1,149 @@
+2025-11-10 13:39:40,367 - WARNING - From C:\Users\CDU\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-11-10 13:39:59,126 - INFO - User uploaded: fight3.mp4
+2025-11-10 13:40:03,818 - INFO - User uploaded: fight3.mp4
+2025-11-10 13:40:04,567 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 13:40:06,264 - ERROR - Error during prediction
+Traceback (most recent call last):
+  File "C:\Users\CDU\Desktop\projects\violence_detection_app\app.py", line 54, in <module>
+    result = predict_violence(video_path)
+  File "C:\Users\CDU\Desktop\projects\violence_detection_app\utils\predict.py", line 47, in predict_violence
+    preds = model.predict(video_data)
+  File "C:\Users\CDU\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\CDU\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+ValueError: Exception encountered when calling LSTMCell.call().
+
+[1mDimensions must be equal, but are 186624 and 57600 for '{{node sequential_1/lstm_1/lstm_cell_1/MatMul}} = MatMul[T=DT_FLOAT, grad_a=false, grad_b=false, transpose_a=false, transpose_b=false](sequential_1/lstm_1/strided_slice_1, sequential_1/lstm_1/lstm_cell_1/Cast/ReadVariableOp)' with input shapes: [1,186624], [57600,256].[0m
+
+Arguments received by LSTMCell.call():
+  • inputs=tf.Tensor(shape=(1, 186624), dtype=float32)
+  • states=('tf.Tensor(shape=(1, 64), dtype=float32)', 'tf.Tensor(shape=(1, 64), dtype=float32)')
+  • training=False
+2025-11-10 13:49:06,066 - WARNING - From C:\Users\CDU\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-11-10 13:49:19,192 - INFO - User uploaded: fight5.mp4
+2025-11-10 13:49:23,554 - INFO - User uploaded: fight5.mp4
+2025-11-10 13:49:24,225 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 13:49:25,108 - ERROR - Error during prediction
+Traceback (most recent call last):
+  File "C:\Users\CDU\Desktop\projects\violence_detection_app\app.py", line 54, in <module>
+    result = predict_violence(video_path)
+  File "C:\Users\CDU\Desktop\projects\violence_detection_app\utils\predict.py", line 47, in predict_violence
+    preds = model.predict(video_data)
+  File "C:\Users\CDU\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\CDU\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+ValueError: Exception encountered when calling LSTMCell.call().
+
+[1mDimensions must be equal, but are 186624 and 57600 for '{{node sequential_1/lstm_1/lstm_cell_1/MatMul}} = MatMul[T=DT_FLOAT, grad_a=false, grad_b=false, transpose_a=false, transpose_b=false](sequential_1/lstm_1/strided_slice_1, sequential_1/lstm_1/lstm_cell_1/Cast/ReadVariableOp)' with input shapes: [1,186624], [57600,256].[0m
+
+Arguments received by LSTMCell.call():
+  • inputs=tf.Tensor(shape=(1, 186624), dtype=float32)
+  • states=('tf.Tensor(shape=(1, 64), dtype=float32)', 'tf.Tensor(shape=(1, 64), dtype=float32)')
+  • training=False
+2025-11-10 13:49:41,169 - INFO - User uploaded: figh2.mp4
+2025-11-10 13:49:43,531 - INFO - User uploaded: figh2.mp4
+2025-11-10 13:49:45,059 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 13:49:45,771 - ERROR - Error during prediction
+Traceback (most recent call last):
+  File "C:\Users\CDU\Desktop\projects\violence_detection_app\app.py", line 54, in <module>
+    result = predict_violence(video_path)
+  File "C:\Users\CDU\Desktop\projects\violence_detection_app\utils\predict.py", line 47, in predict_violence
+    preds = model.predict(video_data)
+  File "C:\Users\CDU\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\CDU\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+ValueError: Exception encountered when calling LSTMCell.call().
+
+[1mDimensions must be equal, but are 186624 and 57600 for '{{node sequential_1/lstm_1/lstm_cell_1/MatMul}} = MatMul[T=DT_FLOAT, grad_a=false, grad_b=false, transpose_a=false, transpose_b=false](sequential_1/lstm_1/strided_slice_1, sequential_1/lstm_1/lstm_cell_1/Cast/ReadVariableOp)' with input shapes: [1,186624], [57600,256].[0m
+
+Arguments received by LSTMCell.call():
+  • inputs=tf.Tensor(shape=(1, 186624), dtype=float32)
+  • states=('tf.Tensor(shape=(1, 64), dtype=float32)', 'tf.Tensor(shape=(1, 64), dtype=float32)')
+  • training=False
+2025-11-10 14:20:42,867 - WARNING - From C:\Users\CDU\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-11-10 14:20:51,471 - INFO - User uploaded: fight1.mp4
+2025-11-10 14:20:57,326 - INFO - User uploaded: fight1.mp4
+2025-11-10 14:21:00,116 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:21:16,787 - INFO - Prediction - File: fight1.mp4, Label: Violence, Confidence: 0.79
+2025-11-10 14:21:32,338 - INFO - User uploaded: fight5.mp4
+2025-11-10 14:21:35,595 - INFO - User uploaded: fight5.mp4
+2025-11-10 14:21:37,239 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:21:54,203 - INFO - Prediction - File: fight5.mp4, Label: Violence, Confidence: 0.83
+2025-11-10 14:22:09,838 - INFO - User uploaded: normal1.mp4
+2025-11-10 14:22:12,693 - INFO - User uploaded: normal1.mp4
+2025-11-10 14:22:14,998 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:22:31,293 - INFO - Prediction - File: normal1.mp4, Label: NonViolence, Confidence: 0.74
+2025-11-10 14:22:42,664 - INFO - User uploaded: normal5.mp4
+2025-11-10 14:22:45,059 - INFO - User uploaded: normal5.mp4
+2025-11-10 14:22:46,784 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:23:03,030 - INFO - Prediction - File: normal5.mp4, Label: NonViolence, Confidence: 0.77
+2025-11-10 14:30:46,281 - WARNING - From C:\Users\CDU\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-11-10 14:30:56,692 - INFO - User uploaded: normal5.mp4
+2025-11-10 14:30:59,888 - INFO - User uploaded: normal5.mp4
+2025-11-10 14:31:01,783 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:31:18,021 - INFO - Prediction - File: normal5.mp4, Label: NonViolence, Confidence: 0.80
+2025-11-10 14:31:35,227 - INFO - User uploaded: figh2.mp4
+2025-11-10 14:31:37,653 - INFO - User uploaded: figh2.mp4
+2025-11-10 14:31:40,022 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:31:56,312 - INFO - Prediction - File: figh2.mp4, Label: NonViolence, Confidence: 0.58
+2025-11-10 14:32:13,213 - INFO - User uploaded: fight5.mp4
+2025-11-10 14:32:16,805 - INFO - User uploaded: fight5.mp4
+2025-11-10 14:32:18,651 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:32:34,857 - INFO - Prediction - File: fight5.mp4, Label: Violence, Confidence: 0.61
+2025-11-10 14:32:47,619 - INFO - User uploaded: figh2.mp4
+2025-11-10 14:32:50,350 - INFO - User uploaded: figh2.mp4
+2025-11-10 14:32:52,808 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:33:09,064 - INFO - Prediction - File: figh2.mp4, Label: NonViolence, Confidence: 0.58
+2025-11-10 14:36:10,645 - WARNING - From C:\Users\CDU\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-11-10 14:36:18,522 - INFO - User uploaded: fight5.mp4
+2025-11-10 14:36:22,339 - INFO - User uploaded: fight5.mp4
+2025-11-10 14:36:24,002 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:36:41,027 - INFO - Prediction - File: fight5.mp4, Label: Violence, Confidence: 0.67
+2025-11-10 14:36:53,072 - INFO - User uploaded: figh2.mp4
+2025-11-10 14:36:55,813 - INFO - User uploaded: figh2.mp4
+2025-11-10 14:36:58,616 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:37:15,130 - INFO - Prediction - File: figh2.mp4, Label: Violence, Confidence: 0.56
+2025-11-10 14:37:28,137 - INFO - User uploaded: fight1.mp4
+2025-11-10 14:37:30,865 - INFO - User uploaded: fight1.mp4
+2025-11-10 14:37:33,588 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:37:49,776 - INFO - Prediction - File: fight1.mp4, Label: Violence, Confidence: 0.65
+2025-11-10 14:38:07,011 - INFO - User uploaded: normal1.mp4
+2025-11-10 14:38:09,637 - INFO - User uploaded: normal1.mp4
+2025-11-10 14:38:12,026 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:38:28,034 - INFO - Prediction - File: normal1.mp4, Label: Violence, Confidence: 0.52
+2025-11-10 14:38:45,739 - INFO - User uploaded: normal5.mp4
+2025-11-10 14:38:48,069 - INFO - User uploaded: normal5.mp4
+2025-11-10 14:38:49,979 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:39:05,957 - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000019D2DCE2E60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-11-10 14:39:05,982 - INFO - Prediction - File: normal5.mp4, Label: Violence, Confidence: 0.52
+2025-11-10 14:43:27,404 - WARNING - From C:\Users\CDU\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-11-10 14:43:35,211 - INFO - User uploaded: normal1.mp4
+2025-11-10 14:43:39,910 - INFO - User uploaded: normal1.mp4
+2025-11-10 14:43:42,277 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:43:58,469 - INFO - Prediction - File: normal1.mp4, Label: NonViolence, Confidence: 0.84
+2025-11-10 14:44:23,816 - INFO - User uploaded: figh2.mp4
+2025-11-10 14:44:26,534 - INFO - User uploaded: figh2.mp4
+2025-11-10 14:44:29,049 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:44:44,992 - INFO - Prediction - File: figh2.mp4, Label: Violence, Confidence: 0.93
+2025-11-10 14:46:12,796 - INFO - User uploaded: fight5.mp4
+2025-11-10 14:46:16,309 - INFO - User uploaded: fight5.mp4
+2025-11-10 14:46:17,851 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:46:34,157 - INFO - Prediction - File: fight5.mp4, Label: Violence, Confidence: 0.93
+2025-11-10 14:46:43,751 - INFO - User uploaded: fight1.mp4
+2025-11-10 14:46:46,520 - INFO - User uploaded: fight1.mp4
+2025-11-10 14:46:49,331 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:47:05,852 - INFO - Prediction - File: fight1.mp4, Label: Violence, Confidence: 0.92
+2025-11-10 14:47:25,329 - INFO - User uploaded: normal5.mp4
+2025-11-10 14:47:27,485 - INFO - User uploaded: normal5.mp4
+2025-11-10 14:47:29,345 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-10 14:47:45,405 - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001DDAB25FEB0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-11-10 14:47:45,466 - INFO - Prediction - File: normal5.mp4, Label: NonViolence, Confidence: 0.90
